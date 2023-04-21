@@ -24,15 +24,18 @@ over Ethernet. A connection-oriented transport-layer protocol like TCP is less
 suited for this task as it requires establishing an active connection before
 sending user data.
 ## Materials
-1.ESP32 Development Board
+1-ESP32 Development Board
 
-2.5V Relay Module(with optocoupler)
+2-5V Relay Module(with optocoupler)
 
-3.F2F Jumper Wires
+3-F2F Jumper Wires
 
-4.Power Supply for ESP32
+4-Power Supply for ESP32
+## Circuit Diagram
+<img src="./relay-esp32-wiring.png"  width=50% height=50%>
+
 ## Usage
-1.Upload the Sniffer code on your ESP32 using Arduino IDE
+1-Upload the Sniffer code on your ESP32 using Arduino IDE
 
-2.Send a magic packet to your ESP32 Ip or mac address using desktop app
+2-Send a magic packet to your ESP32 Ip or mac address using desktop app
 
